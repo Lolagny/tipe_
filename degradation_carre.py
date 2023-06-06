@@ -46,7 +46,7 @@ def degrad(type,color):
 
 # degrad("val","blanc")
 
-def floutage(type,color,P):     #P le pourcentage de points que l'on souhaite recouvrir sur le panneau
+def bruitage(type,color,P):     #P le pourcentage de points que l'on souhaite recouvrir sur le panneau
     cpt = 0
     json_file = open("C:/Users/Elève/Documents/Prepa/TIPE/PANNEAU/via_region_data.json")
     f = json.load(json_file)
